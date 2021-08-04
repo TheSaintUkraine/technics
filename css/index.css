@@ -1,0 +1,277 @@
+.banner {
+  padding-top: 82px;
+  width: 100%;
+  height: 454px;
+  margin: 0 !important;
+  justify-content: space-around;
+  background-repeat: no-repeat;
+  background-size: 100% 454px;
+  background-image: url("../img/banner.png");
+}
+.banner h1 {
+  width: 623px;
+font-size: 38px;
+line-height: 44px;
+color: white;
+}
+.banner span {
+  color: #FFC107;
+}
+.wrap-block-banner {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  width: 426px;
+}
+.block-banner p {
+  font-size: 16px;
+line-height: 19px;
+color: white;
+margin-bottom: 19px;
+}
+.block-banner button {
+  border: none;
+  padding: 0px 20px;
+width: 156px;
+height: 40px;
+background: #FFC107;
+border-radius: 4px;
+}
+.block-banner:nth-child(2)  button{
+padding: 0px;
+width: 194px;
+height: 40px;
+background: #FFFFFF;
+border-radius: 4px;
+}
+.info-block-banner {
+  margin-bottom: 44px;
+}
+.info-block-banner  h3 {
+  font-size: 40px;
+line-height: 46px;
+color: #FFD23A;
+text-align: right;
+}
+.info-block-banner  p {
+  font-size: 12px;
+line-height: 14px;
+align-items: center;
+text-align: right;
+color: #FFFFFF
+}
+
+
+
+
+
+.service {
+  margin-top: 119px;
+  text-align: center;
+  font-size: 26px;
+line-height: 30px;
+color: #333333;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.service h2 {
+  width: 70%;
+}
+.wrap-service-blocks {
+  margin: 51px auto  !important;
+  width: 80% !important;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.block-service {
+  margin-bottom: 22px;
+  margin-right: 22px;
+width: 356px;
+height: 280px;
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+box-sizing: border-box;
+border-radius: 4px;
+  text-align: center;
+  font-size: 20px;
+line-height: 23px;
+color: #333333;
+}
+.block-service p {
+  color: inherit;
+}
+.block-service:hover {
+  background: #333333;
+  color: white;
+}
+.block-service .img {
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+
+
+
+.banner-2 {
+  margin: 0 !important;
+  justify-content: space-around;
+  height: 321px;
+  background-image: url("../img/banner2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-2 h3 {
+  margin-top: 70px;
+  font-size: 32px;
+line-height: 37px;
+color: #FFFFFF;
+}
+.banner-2 p {
+  margin-top: 10px;
+  font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+}
+.banner-2 button {
+  margin-top: 35px;
+  width: 194px;
+height: 50px;
+background: #FFC107;
+border-radius: 4px;
+border: none;
+font-size: 18px;
+line-height: 21px;
+}
+
+
+.offer {
+  margin-top: 100px;
+
+}
+.buttons-nav {
+  justify-content: center;
+  width: 100%;
+}
+.buttons-nav .col-6{
+  justify-content:space-around;
+  display: flex;
+}
+.buttons-nav button{
+  width: 230px;
+height: 50px;
+}
+
+
+
+
+.offers-wrap .col-auto {
+  margin-top: 40px;
+  border: 1px solid #E0E0E0;
+box-sizing: border-box;
+border-radius: 4px;
+padding: 0 !important;
+width: 355px;
+}
+.thumbnail{
+  width: 100%;
+}
+.txt-wrap {
+  padding-left: 37px;
+  padding-right: 37px;
+  color: #333333;
+}
+.txt-wrap h4{
+  font-size: 18px;
+line-height: 21px;
+
+}
+.txt-wrap button{
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.rating {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.price {
+ font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+font-weight: bold;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+.price img{
+  width: 19px;
+  height: 20px;
+  margin-right: 5px;
+}
+.place {
+ font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+.place img{
+  width: 17px;
+  height: 22px;
+  margin-right: 5px;
+}
+.offers-wrap {
+  justify-content: space-between;
+  width: 1107px;
+
+ margin: 0 auto !important;
+}
+
+
+
+
+
+.mobileApp {
+  height: 405px;
+  background: #FFC107;
+  padding-top: 90px;
+  margin-top: 180px;
+  padding-left: 50px;
+  width: 100%;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.mobileApp h3{
+font-size: 32px;
+line-height: 37px;
+color: #333333;
+}
+.mobileApp p{
+margin-top: 11px;
+color: #333333;
+margin-bottom: 20px;
+font-size: 24px;
+line-height: 28px;
+}
+.nav-mobileApp img{
+  margin-right: 15px;
+}
+.mobileApp .col-5 {
+  position: relative;
+
+}
+.mobileApp .col-5 img{
+  position: absolute;
+  top: -200px;
+  left: -100px;
+}
+
+
+.footer {
+  margin-top: 0 !important;
+}
